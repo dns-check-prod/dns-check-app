@@ -3,10 +3,166 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DNS-CHECK</title>
+    <meta name="description" content="DNS Check — мобильное приложение для проверки DNS-записей с интеграцией nmap.">
+    <title>DNS Check</title>
+    <style>
+        /* Основные стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: #1e2a36;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 1.2em;
+            max-width: 800px;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        /* Стили для контента */
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .content-block {
+            display: flex;
+            justify-content: space-between;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .feature {
+            background-color: #fff;
+            border-radius: 8px;
+            padding: 20px;
+            width: 30%;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .feature:hover {
+            transform: translateY(-10px);
+        }
+
+        .feature h3 {
+            color: #1e2a36;
+            margin-top: 0;
+        }
+
+        .feature p {
+            color: #666;
+        }
+
+        /* Стили для кнопки и ссылки */
+        .btn {
+            background-color: #00aaff;
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            font-weight: bold;
+            display: inline-block;
+            margin-top: 30px;
+            transition: background-color 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #007b99;
+        }
+
+        footer {
+            background-color: #1e2a36;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+
+        footer a {
+            color: #00aaff;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .feature {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .content-block {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h1></h1>
-    <p>DNS-CHECK.</p>
+    <header>
+        <h1>DNS Check</h1>
+        <p>Проверка DNS-записей и анализ безопасности с интеграцией nmap</p>
+    </header>
+
+    <div class="container">
+        <div class="content-block">
+            <div class="feature">
+                <h3>Проверка DNS-записей</h3>
+                <p>Быстро проверяйте корректность настроек DNS и анализируйте работоспособность доменов. Поддержка всех типов DNS-записей.</p>
+            </div>
+            <div class="feature">
+                <h3>Интеграция с nmap</h3>
+                <p>Интеграция с мощным инструментом nmap для сканирования на уязвимости и поиска слабых мест в сети.</p>
+            </div>
+            <div class="feature">
+                <h3>Анализ уязвимостей</h3>
+                <p>Выявляйте уязвимости в DNS-инфраструктуре, такие как проблемы с настройками и угрозы безопасности.</p>
+            </div>
+        </div>
+
+        <div class="content-block">
+            <div class="feature">
+                <h3>Мониторинг и оповещения</h3>
+                <p>Настройте регулярный мониторинг DNS-записей с автоматическими оповещениями о любых изменениях.</p>
+            </div>
+            <div class="feature">
+                <h3>Исторические данные</h3>
+                <p>Получите доступ к историческим данным и отчетам, чтобы отслеживать изменения и тренды во времени.</p>
+            </div>
+            <div class="feature">
+                <h3>Интуитивно понятный интерфейс</h3>
+                <p>Простой и удобный интерфейс, который поможет вам быстро и эффективно выполнять проверки DNS-записей.</p>
+            </div>
+        </div>
+
+        <a href="www.linkedin.com/in/dns-check-dev" class="btn" target="_blank">Связаться через LinkedIn</a>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 DNS Check. Все права защищены. <br>Разработано для системных администраторов и специалистов по безопасности.</p>
+    </footer>
 </body>
 </html>
